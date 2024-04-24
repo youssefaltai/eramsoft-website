@@ -16,19 +16,19 @@
 
 @font-face {
   font-family: Gotham;
-  src: url(/Gotham-Bold.otf);
+  src: url(/eramsoft-website/Gotham-Bold.otf);
   font-weight: 700;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url(/Gotham-Book.otf);
+  src: url(/eramsoft-website/Gotham-Book.otf);
   font-weight: 600;
 }
 
 @font-face {
   font-family: Gotham;
-  src: url(/Gotham-Medium.otf);
+  src: url(/eramsoft-website/Gotham-Medium.otf);
   font-weight: 500;
 }
 
