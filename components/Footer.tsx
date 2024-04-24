@@ -10,7 +10,7 @@ import Link from "next/link";
 function Footer() {
   return <footer className="flex flex-row gap-32 pb-16">
     <div className="flex flex-col gap-24 py-8 w-full">
-      <Image src="/logo.svg" width={565} height={171} alt="logo" />
+      <Image src="/eramsoft-website/logo.svg" width={565} height={171} alt="logo" />
       <p className="text-2xl font-semibold">
         EramSoft is a boutique software development firm specializing in crafting bespoke software solutions tailored to your business needs.
       </p>
