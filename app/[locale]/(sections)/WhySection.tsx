@@ -15,14 +15,14 @@ export default function WhySection() {
                 <div className="w-full flex flex-col justify-start items-start gap-6">
                     <h2 className="text-5xl font-semibold">
                         <span className="text-[#194595]">Why</span> Eram Soft?
-                    </h2>
+                    </h2>&quot;
                     <p className="text-xl">
-                        "Your Trusted Partner in the World of Technology"
+                        &quot;Your Trusted Partner in the World of Technology&quot;
                     </p>
                     <WhyRow
                         number={1}
                         title="Service Excellence"
-                        description="We are committed to providing superior and innovative technological solutions that meet our clients' needs."
+                        description="We are committed to providing superior and innovative technological solutions that meet our clients&apos; needs."
                     />
                     <WhyRow
                         number={2}
@@ -37,7 +37,7 @@ export default function WhySection() {
                     <WhyRow
                         number={4}
                         title="Customized Solutions"
-                        description="We focus on delivering tailored solutions that precisely meet each client's needs."
+                        description="We focus on delivering tailored solutions that precisely meet each client&apos;s needs."
                     />
                     <WhyRow
                         number={5}

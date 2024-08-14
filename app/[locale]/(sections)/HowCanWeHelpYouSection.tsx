@@ -87,7 +87,7 @@ export default function HowCanWeHelpYouSection() {
                             </defs>
                         </svg>}
                         title="Excellence"
-                        description="We strive for excellence in everything we offer, whether it's technical services or customer experience."
+                        description="We strive for excellence in everything we offer, whether it&apos;s technical services or customer experience."
                     />
                 </div>
             </div>

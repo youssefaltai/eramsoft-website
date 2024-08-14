@@ -25,7 +25,7 @@ export default function TestimonialsSection() {
                     <div className="flex flex-col w-full gap-2">
                         <Stars />
                         <p className="text-xl">
-                            EramSoft's team demonstrated professionalism and technical expertise throughout the project. Highly recommended!
+                            EramSoft&apos;s team demonstrated professionalism and technical expertise throughout the project. Highly recommended!
                         </p>
                         <Reviewer
                             image="/reviewer1.png"
@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
                     <div className="flex flex-col w-full gap-2">
                         <Stars />
                         <p className="text-xl">
-                            Really love the Fast Delivery Photos File Service. Just 48 Hours. It's Crazy!
+                            Really love the Fast Delivery Photos File Service. Just 48 Hours. It&apos;s Crazy!
                         </p>
                         <Reviewer
                             image="/reviewer2.png"
