@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 
-export default function ServicesSection() {
+export default function HowCanWeHelpYouSection() {
     return (
         <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-[#0D121C] relative">
             <svg width="305" height="442" viewBox="0 0 305 442" fill="none" xmlns="http://www.w3.org/2000/svg"

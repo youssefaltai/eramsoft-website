@@ -132,3 +132,15 @@ nav button {
     /* poppins-semibold */
     text-sm;
 }
+
+.text-gradient-thing {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+
+    background: linear-gradient(135deg, #FFFFFF 30%, rgba(255, 255, 255, 0.38) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
