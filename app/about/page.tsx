@@ -15,7 +15,7 @@ export default function Page() {
                             Integrated Solutions for Electronic Systems and Digital Marketing.
                         </p>
                         <p className="text-lg text-[#4B5565]">
-                            We are a leading platform in the field of information technology, providing integrated and innovative solutions to meet our clients&apos; needs. We excel with extensive experience in designing and developing mobile applications and websites, in addition to digital marketing services and technology consulting. We are committed to achieving excellence and meeting our clients' needs through innovation, quality, and professionalism.
+                            We are a leading platform in the field of information technology, providing integrated and innovative solutions to meet our clients&apos; needs. We excel with extensive experience in designing and developing mobile applications and websites, in addition to digital marketing services and technology consulting. We are committed to achieving excellence and meeting our clients&apos; needs through innovation, quality, and professionalism.
                         </p>
                     </div>
                     <div className="w-full flex justify-start items-start gap-6">
