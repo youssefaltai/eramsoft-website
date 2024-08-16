@@ -104,7 +104,7 @@ function HeroBottom() {
                     We always strive to deliver the best.
                 </p>
             </div>
-            <div className="flex w-full max-w-screen-lg justify-between items-center">
+            <div className="flex w-full max-w-screen-lg gap-8 justify-center items-center flex-wrap">
                 <Image
                     src="/clients/Airbnb.png"
                     width={170}

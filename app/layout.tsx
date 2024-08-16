@@ -1,9 +1,6 @@
-import Locale from "intl-locale-textinfo-polyfill";
-
-import "../globals.css";
+import "./globals.css";
 
 import { PropsWithChildren } from "react";
-import { SupportedLocales } from "../lib";
 import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
@@ -22,14 +19,10 @@ export const metadata: Metadata = {
 
 export default function Layout({
   children,
-  params: { locale },
 }: PropsWithChildren<{
-  params: { locale: SupportedLocales };
 }>) {
-  const { direction: dir } = new Locale(locale).textInfo;
-
   return (
-    <html lang={locale} dir={dir}>
+    <html lang={"en"} >
       <body className={poppins.className}>
         <Header />
         <main>

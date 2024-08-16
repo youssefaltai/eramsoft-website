@@ -32,7 +32,7 @@ export default function FooterSection() {
                     </linearGradient>
                 </defs>
             </svg>
-            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl p-16">
+            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl p-16 z-10">
                 <div className="flex flex-col gap-8 w-full">
                     <h1 className="text-4xl font-semibold text-[#F8FAFC]">
                         Eram Soft
@@ -66,7 +66,7 @@ export default function FooterSection() {
                         </p>
                     </div>
                 </div>
-                <div className="flex gap-8 w-full">
+                <div className="flex flex-wrap gap-8 w-full">
                     <div className="flex flex-col gap-8">
                         <h2 className="text-xl font-medium text-[#F8FAFC]">
                             Home
