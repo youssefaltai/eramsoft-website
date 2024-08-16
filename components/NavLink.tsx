@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation'
 
 type NavLinkProps = HTMLProps<HTMLAnchorElement>;
 export default function NavLink({ href, children }: NavLinkProps) {
-    const currentPath = usePathname().slice(3) || '/';
+    const currentPath = usePathname() || '/';
     const active = currentPath === href;
     const textColor = active ? "text-[#2FA455]" : '';
 

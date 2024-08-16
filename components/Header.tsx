@@ -1,6 +1,4 @@
 import Logo from "./Logo";
-import CallToAction from "./CallToAction";
-import { ArrowUpRightIcon } from "./Icons";
 import Menu from "./Menu";
 import NavLink from "./NavLink";
 
@@ -9,7 +7,7 @@ export default function Header() {
         <header className="flex justify-center items-center py-6 w-full">
             <div className="flex justify-between items-center gap-32 w-full max-w-screen-xl px-16">
                 <Logo />
-                <nav className="hidden lg:flex justify-between items-center w-full max-w-screen-sm">
+                <nav className="hidden lg:flex justify-between items-center w-full max-w-sm">
                     <ul className="flex justify-between items-center w-full gap-4">
                         <li>
                             <NavLink href={"/"}>
@@ -17,13 +15,8 @@ export default function Header() {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink href={"/solutions"}>
-                                Solutions
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink href={"/portfolio"}>
-                                Portfolio
+                            <NavLink href={"/services"}>
+                                Our Services
                             </NavLink>
                         </li>
                         <li>
@@ -31,12 +24,13 @@ export default function Header() {
                                 About Us
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink href={"/contact"}>
+                                Contact Us
+                            </NavLink>
+                        </li>
                     </ul>
                 </nav>
-                <CallToAction className="hidden lg:flex">
-                    Contact Us
-                    <ArrowUpRightIcon />
-                </CallToAction>
                 <Menu />
             </div>
         </header>

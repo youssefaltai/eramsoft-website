@@ -15,7 +15,7 @@ export default function WhySection() {
                 <div className="w-full flex flex-col justify-start items-start gap-6">
                     <h2 className="text-5xl font-semibold">
                         <span className="text-[#194595]">Why</span> Eram Soft?
-                    </h2>&quot;
+                    </h2>
                     <p className="text-xl">
                         &quot;Your Trusted Partner in the World of Technology&quot;
                     </p>
