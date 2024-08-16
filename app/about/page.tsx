@@ -15,7 +15,7 @@ export default function Page() {
                             Integrated Solutions for Electronic Systems and Digital Marketing.
                         </p>
                         <p className="text-lg text-[#4B5565]">
-                            We are a leading platform in the field of information technology, providing integrated and innovative solutions to meet our clients' needs. We excel with extensive experience in designing and developing mobile applications and websites, in addition to digital marketing services and technology consulting. We are committed to achieving excellence and meeting our clients' needs through innovation, quality, and professionalism.
+                            We are a leading platform in the field of information technology, providing integrated and innovative solutions to meet our clients&apos; needs. We excel with extensive experience in designing and developing mobile applications and websites, in addition to digital marketing services and technology consulting. We are committed to achieving excellence and meeting our clients' needs through innovation, quality, and professionalism.
                         </p>
                     </div>
                     <div className="w-full flex justify-start items-start gap-6">
@@ -43,7 +43,7 @@ export default function Page() {
             <AboutSubSection
                 dir="rtl"
                 title="Our Mission"
-                description="To support our client's journey towards excellence in the digital business environment, we offer a comprehensive package of strategically designed technical services tailored specifically for companies and institutions. These services help them enhance their competitive capabilities in the market."
+                description="To support our client&apos;s journey towards excellence in the digital business environment, we offer a comprehensive package of strategically designed technical services tailored specifically for companies and institutions. These services help them enhance their competitive capabilities in the market."
                 image={
                     <Image
                         src="/illustration.png"
