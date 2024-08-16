@@ -1,8 +1,6 @@
-import Dropdown from "./Dropdown";
-import LocaleLink from "./LocaleLink";
 import Logo from "./Logo";
 import CallToAction from "./CallToAction";
-import { ArrowUpRightIcon, NavArrowDown } from "./Icons";
+import { ArrowUpRightIcon } from "./Icons";
 import Menu from "./Menu";
 import NavLink from "./NavLink";
 
