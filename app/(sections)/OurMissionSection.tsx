@@ -13,7 +13,7 @@ export default function OurMissionSection() {
                         Our mission is to deliver technological excellence
                     </h2>
                     <p className="text-base text-[#4B5565]">
-                        At Eram Soft, deliver integrated and advanced technological services that enhance our client's ability to succeed and excel in information technology. We provide practical and innovative solutions that meet their aspirations and contribute to achieving their goals.
+                        At Eram Soft, deliver integrated and advanced technological services that enhance our client&apos;s ability to succeed and excel in information technology. We provide practical and innovative solutions that meet their aspirations and contribute to achieving their goals.
 
                     </p>
                     <CallToAction className="bg-[#194595]">
