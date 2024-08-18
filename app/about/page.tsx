@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 import FooterSection from "../(sections)/FooterSection";
+import ContactSection from "../(sections)/ContactSection";
 
 export default function Page() {
     return (
@@ -15,7 +16,7 @@ export default function Page() {
                             Integrated Solutions for Electronic Systems and Digital Marketing.
                         </p>
                         <p className="text-lg text-[#4B5565]">
-                            We are a leading platform in the field of information technology, providing integrated and innovative solutions to meet our clients&apos; needs. We excel with extensive experience in designing and developing mobile applications and websites, in addition to digital marketing services and technology consulting. We are committed to achieving excellence and meeting our clients&apos; needs through innovation, quality, and professionalism.
+                            Welcome to Eram Soft, a pioneering information technology and digital marketing company. We strive to provide advanced and innovative technological solutions to our clients. Our team is distinguished by extensive experience in mobile application and development, web design, digital marketing, and technical consulting services.
                         </p>
                     </div>
                     <div className="w-full flex justify-start items-start gap-6">
@@ -30,7 +31,7 @@ export default function Page() {
             </section>
             <AboutSubSection
                 title="Our Vision"
-                description="At Eram Soft, we strive to be at the forefront of information technology companies by using the latest technologies and facilitating operations to ensure the development of our services according to the highest standards. We aspire to innovate efficient, reliable, and easily implementable services at a reasonable cost, enhancing our competitive edge and ensuring our ability to meet the needs of our customers."
+                description="At Eram Soft, we aim to be the leading destination in the field of information technology by providing innovative and advanced solutions that meet our clients' aspirations and help them achieve their goals."
                 image={
                     <Image
                         src="/illustration.png"
@@ -43,7 +44,7 @@ export default function Page() {
             <AboutSubSection
                 dir="rtl"
                 title="Our Mission"
-                description="To support our client&apos;s journey towards excellence in the digital business environment, we offer a comprehensive package of strategically designed technical services tailored specifically for companies and institutions. These services help them enhance their competitive capabilities in the market."
+                description="Our mission at Eram Soft is to deliver integrated and advanced technological services that enhance our client&apos;s ability to succeed and excel in digital marketing and information technology. We provide practical and innovative solutions that meet their aspirations and contribute to achieving their goals."
                 image={
                     <Image
                         src="/illustration.png"
@@ -55,7 +56,7 @@ export default function Page() {
             />
             <AboutSubSection
                 title="Our Values"
-                description="At Eram Soft, we strive to be at the forefront of information technology companies by using the latest technologies and facilitating operations to ensure the development of our services according to the highest standards. We aspire to innovate efficient, reliable, and easily implementable services at a reasonable cost, enhancing our competitive edge and ensuring our ability to meet the needs of our customers."
+                description="We are committed to providing high-quality and distinguished services, placing our clients at the forefront of our priorities. Our team is characterized by efficiency, professionalism, and innovation. We work diligently to ensure client satisfaction and effectively achieve their goals."
                 image={
                     <Image
                         src="/illustration.png"
@@ -65,6 +66,20 @@ export default function Page() {
                     />
                 }
             />
+            <AboutSubSection
+                dir="rtl"
+                title="Why Choose Eram Soft?"
+                description="Eram Soft stands out with its comprehensive technical solutions, experienced team, and commitment to client satisfaction. We ensure the delivery of exceptional services that meet and exceed our clients&apos; expectations."
+                image={
+                    <Image
+                        src="/illustration.png"
+                        width={556}
+                        height={470}
+                        alt="Illustration"
+                    />
+                }
+            />
+            <ContactSection />
             <FooterSection />
         </>
     );

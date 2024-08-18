@@ -10,11 +10,11 @@ export default function OurMissionSection() {
                 <div className="w-full flex flex-col justify-start items-start gap-6">
                     <Logo />
                     <h2 className="text-5xl font-semibold text-[#1D0D47]">
-                        Our mission is to make people happy
+                        Our mission is to deliver technological excellence
                     </h2>
                     <p className="text-base text-[#4B5565]">
-                        Lorem ipsum dolor sit amet consectetur. Leo nisl ornare id sagittis arcu. Mauris eget gravida sed ligula feugiat. Phasellus arcu dictum mi sit. Donec nulla ut gravida ipsum sit ut lectus quam. Ut urna vehicula lectus non.
-                        Quam viverra risus ut parturient iaculis.
+                        At Eram Soft, deliver integrated and advanced technological services that enhance our client's ability to succeed and excel in information technology. We provide practical and innovative solutions that meet their aspirations and contribute to achieving their goals.
+
                     </p>
                     <CallToAction className="bg-[#194595]">
                         Get in touch
