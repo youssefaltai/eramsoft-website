@@ -2,6 +2,7 @@ import CallToAction from "@/components/CallToAction";
 import { ArrowRightCircle } from "@/components/Icons";
 import Image from "next/image";
 import Link from "next/link";
+import GetInTouchButton from "../GetInTouchButton";
 
 export default function HeroSection() {
     return (
@@ -65,13 +66,10 @@ function HeroTop() {
                 We are dedicated to providing cutting-edge technological solutions that align with your goals.
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center gap-8">
-                <Link href="/solutions" className="text-lg font-semibold text-[#263145]">
+                <Link href="/services" className="text-lg font-semibold text-[#263145]">
                     Explore our services
                 </Link>
-                <CallToAction className="bg-[#194595]">
-                    Get in touch
-                    <ArrowRightCircle />
-                </CallToAction>
+                <GetInTouchButton />
             </div>
         </div>
     );
@@ -104,32 +102,22 @@ function HeroBottom() {
                     We always strive to deliver the best.
                 </p>
             </div>
-            <div className="flex w-full max-w-screen-lg gap-8 justify-center items-center flex-wrap">
+            <div className="flex w-full max-w-screen-lg gap-32 justify-center items-center flex-wrap">
                 <Image
-                    src="/clients/Airbnb.png"
-                    width={170}
-                    height={96}
+                    src="/clients/Home Service.png"
+                    width={100}
+                    height={100}
+                    alt="Home Service" />
+                <Image
+                    src="/clients/Steed.png"
+                    width={130}
+                    height={130}
+                    alt="Steed" />
+                <Image
+                    src="/clients/Eram Drive.png"
+                    width={100}
+                    height={100}
                     alt="Airbnb" />
-                <Image
-                    src="/clients/Google.png"
-                    width={170}
-                    height={96}
-                    alt="Google" />
-                <Image
-                    src="/clients/Microsoft.png"
-                    width={170}
-                    height={96}
-                    alt="Microsoft" />
-                <Image
-                    src="/clients/Loom.png"
-                    width={170}
-                    height={96}
-                    alt="Loom" />
-                <Image
-                    src="/clients/Asana.png"
-                    width={170}
-                    height={96}
-                    alt="Asana" />
             </div>
         </div>
     );

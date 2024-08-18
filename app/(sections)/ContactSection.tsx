@@ -3,7 +3,7 @@ import { ArrowUpRightIcon } from "@/components/Icons";
 
 export default function ContactSection() {
     return (
-        <section className="flex flex-col justify-center items-center md:py-16 w-full gap-16 bg-white relative">
+        <section className="flex flex-col justify-center items-center md:py-16 w-full gap-16 bg-white relative" id="contact">
             <div className="flex flex-col md:flex-row gap-8 w-full max-w-screen-xl md:px-16">
                 <div className="md:rounded-3xl flex flex-col py-16 w-full gap-4 bg-[#0C1935]">
                     <h2 className="text-gradient-thing px-16">

@@ -8,7 +8,7 @@ export default function Page() {
         <>
             <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
                 <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
-                    <h1 className="text-5xl font-bold text-[#1D0D47]">
+                    <h1 className="text-5xl font-semibold text-[#1D0D47]">
                         We&apos;d Love To Hear
                         From You
                     </h1>
@@ -60,25 +60,25 @@ Sunday & Saturday: 10:30 - 22:00"
             <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
                 <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
                     <div className="grid grid-cols-2">
-                        <div className="flex flex-col bg-[#F8FAFC] p-8 justify-between rounded-l-2xl">
-                            <h2 className="text-[#1D0D47] text-3xl font-semibold">
+                        <div className="flex flex-col bg-[#0C1935] p-8 justify-between rounded-l-2xl">
+                            <h2 className="text-[#F8FAFC] text-3xl font-semibold">
                                 Contact Us For Any Query
                             </h2>
                             <div className="flex flex-col gap-2">
                                 <div className="flex flex-col w-full  max-w-80 gap-2">
-                                    <p className="text-[#1D0D47]">
+                                    <p className="text-[#F8FAFC]">
                                         Email
                                     </p>
                                     <input type="email" className="rounded-full p-2 w-full" />
                                 </div>
                                 <div className="flex flex-col w-full  max-w-80 gap-2">
-                                    <p className="text-[#1D0D47]">
+                                    <p className="text-[#F8FAFC]">
                                         Message
                                     </p>
                                     <textarea className="rounded-xl p-2 w-full" />
                                 </div>
                             </div>
-                            <CallToAction className="bg-[#194595] w-min">
+                            <CallToAction className="bg-[#E5A84A] w-min">
                                 Submit
                                 <ArrowUpRightIcon />
                             </CallToAction >
@@ -88,7 +88,6 @@ Sunday & Saturday: 10:30 - 22:00"
                     </div>
                 </div>
             </section>
-            <FooterSection />
         </>
     );
 }

@@ -4,7 +4,7 @@ import { PropsWithChildren } from "react";
 import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+import FooterSection from "./(sections)/FooterSection";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -28,7 +28,7 @@ export default function Layout({
         <main>
           {children}
         </main>
-        <Footer />
+        <FooterSection />
       </body>
     </html>
   );

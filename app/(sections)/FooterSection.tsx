@@ -69,45 +69,14 @@ export default function FooterSection() {
                 <div className="flex flex-wrap gap-8 w-full">
                     <div className="flex flex-col gap-8">
                         <h2 className="text-xl font-medium text-[#F8FAFC]">
-                            Home
+                            Company
                         </h2>
                         <div className="flex flex-col gap-4">
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Accessibility
+                            <Link href="/about" className="text-[#CDD5DF]">
+                                About
                             </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                About us
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                User group
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Email Marketing
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Campaigns
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="flex flex-col gap-8">
-                        <h2 className="text-xl font-medium text-[#F8FAFC]">
-                            Pages
-                        </h2>
-                        <div className="flex flex-col gap-4">
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Our Story
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Benefits
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Blogs
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Team
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Privacy policy
+                            <Link href="/services" className="text-[#CDD5DF]">
+                                Our Services
                             </Link>
                         </div>
                     </div>
@@ -116,11 +85,8 @@ export default function FooterSection() {
                             Help
                         </h2>
                         <div className="flex flex-col gap-4">
-                            <Link href="#" className="text-[#CDD5DF]">
-                                FAQ
-                            </Link>
-                            <Link href="#" className="text-[#CDD5DF]">
-                                Contact us
+                            <Link href="/contact" className="text-[#CDD5DF]">
+                                Contact Us
                             </Link>
                         </div>
                     </div>

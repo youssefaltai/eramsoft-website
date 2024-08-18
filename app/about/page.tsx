@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { ReactNode } from "react";
-import FooterSection from "../(sections)/FooterSection";
 import ContactSection from "../(sections)/ContactSection";
 
 export default function Page() {
@@ -80,7 +79,6 @@ export default function Page() {
                 }
             />
             <ContactSection />
-            <FooterSection />
         </>
     );
 }

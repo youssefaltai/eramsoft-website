@@ -4,7 +4,6 @@ import HowCanWeHelpYouSection from "./(sections)/HowCanWeHelpYouSection";
 import WhySection from "./(sections)/WhySection";
 import WhatWeOfferSection from "./(sections)/WhatWeOfferSection";
 import ContactSection from "./(sections)/ContactSection";
-import FooterSection from "./(sections)/FooterSection";
 import TestimonialsSection from "./(sections)/TestimonialsSection";
 
 export default function Home() {
@@ -17,7 +16,6 @@ export default function Home() {
       <WhatWeOfferSection />
       <ContactSection />
       <TestimonialsSection />
-      <FooterSection />
     </>
   );
 }
