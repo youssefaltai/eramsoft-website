@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Logo from "./Logo";
 import Menu from "./Menu";
 import NavLink from "./NavLink";
@@ -6,7 +7,9 @@ export default function Header() {
     return (
         <header className="flex justify-center items-center py-6 w-full">
             <div className="flex justify-between items-center gap-16 w-full max-w-screen-xl px-8 md:px-16">
-                <Logo />
+                <Link href={"/"}>
+                    <Logo />
+                </Link>
                 <nav className="hidden lg:flex justify-between items-center w-full max-w-sm">
                     <ul className="flex justify-between items-center w-full gap-4">
                         <li>
