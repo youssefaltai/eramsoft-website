@@ -39,7 +39,7 @@ export default function TestimonialsSection() {
                     <div className="flex flex-col w-full gap-2">
                         <Stars />
                         <p className="text-xl">
-                            Eram Soft has been instrumental in the growth of our business. Their expertise in digital marketing and web development helped us revamp our online presence, significantly increasing traffic and conversions. The team at Eram Soft took the time to understand our specific needs and deliver tailored solutions that aligned perfectly with our business objectives. Their continuous support and dedication to our success have made them a valuable partner. We couldn't be more satisfied with their services
+                            Eram Soft has been instrumental in the growth of our business. Their expertise in digital marketing and web development helped us revamp our online presence, significantly increasing traffic and conversions. The team at Eram Soft took the time to understand our specific needs and deliver tailored solutions that aligned perfectly with our business objectives. Their continuous support and dedication to our success have made them a valuable partner. We couldn&apos;t be more satisfied with their services
                         </p>
                         <Reviewer
                             image="/reviewer2.png"
