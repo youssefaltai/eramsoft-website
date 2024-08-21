@@ -33,9 +33,9 @@ export default function Page() {
                 description="At Eram Soft, we aim to be the leading destination in the field of information technology by providing innovative and advanced solutions that meet our clients' aspirations and help them achieve their goals."
                 image={
                     <Image
-                        src="/illustration.png"
-                        width={556}
-                        height={470}
+                        src="/ourvision.png"
+                        width={2069}
+                        height={1658}
                         alt="Illustration"
                     />
                 }
@@ -46,10 +46,10 @@ export default function Page() {
                 description="Our mission at Eram Soft is to deliver integrated and advanced technological services that enhance our client&apos;s ability to succeed and excel in digital marketing and information technology. We provide practical and innovative solutions that meet their aspirations and contribute to achieving their goals."
                 image={
                     <Image
-                        src="/illustration.png"
+                        src="/ourmission2.png"
                         width={556}
                         height={470}
-                        alt="Illustration"
+                        alt="Our Mission"
                     />
                 }
             />
@@ -58,7 +58,7 @@ export default function Page() {
                 description="We are committed to providing high-quality and distinguished services, placing our clients at the forefront of our priorities. Our team is characterized by efficiency, professionalism, and innovation. We work diligently to ensure client satisfaction and effectively achieve their goals."
                 image={
                     <Image
-                        src="/illustration.png"
+                        src="/homeservice2.png"
                         width={556}
                         height={470}
                         alt="Illustration"
@@ -71,7 +71,7 @@ export default function Page() {
                 description="Eram Soft stands out with its comprehensive technical solutions, experienced team, and commitment to client satisfaction. We ensure the delivery of exceptional services that meet and exceed our clients&apos; expectations."
                 image={
                     <Image
-                        src="/illustration.png"
+                        src="/homeservice.png"
                         width={556}
                         height={470}
                         alt="Illustration"

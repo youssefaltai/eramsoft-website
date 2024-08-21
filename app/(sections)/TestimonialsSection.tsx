@@ -25,12 +25,12 @@ export default function TestimonialsSection() {
                     <div className="flex flex-col w-full gap-2">
                         <Stars />
                         <p className="text-xl">
-                            EramSoft&apos;s team demonstrated professionalism and technical expertise throughout the project. Highly recommended!
+                            Working with Eram Soft has been an absolute pleasure. Their team is incredibly professional, responsive, and innovative. They developed a mobile application for our company that exceeded our expectations. The sleek, user-friendly, and fully functional design has significantly improved our customer engagement. Their attention to detail and commitment to delivering top-quality solutions is unmatched. We highly recommend Eram Soft to anyone looking for a reliable and talented tech partner.
                         </p>
                         <Reviewer
                             image="/reviewer1.png"
-                            name="John Doe"
-                            position="CEO, Company Name"
+                            name="Ahmed Al-Jaledan"
+                            position="CEO, Eram Group"
                         />
                     </div>
                     <div
@@ -39,12 +39,12 @@ export default function TestimonialsSection() {
                     <div className="flex flex-col w-full gap-2">
                         <Stars />
                         <p className="text-xl">
-                            Really love the Fast Delivery Photos File Service. Just 48 Hours. It&apos;s Crazy!
+                            Eram Soft has been instrumental in the growth of our business. Their expertise in digital marketing and web development helped us revamp our online presence, significantly increasing traffic and conversions. The team at Eram Soft took the time to understand our specific needs and deliver tailored solutions that aligned perfectly with our business objectives. Their continuous support and dedication to our success have made them a valuable partner. We couldn't be more satisfied with their services
                         </p>
                         <Reviewer
                             image="/reviewer2.png"
-                            name="John Doe"
-                            position="CEO, Company Name"
+                            name="Yasser Al-Sheikh"
+                            position="Marketing Manager, Steed"
                         />
                     </div>
                 </div>

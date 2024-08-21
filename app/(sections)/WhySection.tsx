@@ -6,10 +6,10 @@ export default function WhySection() {
             <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
                 <div className="w-full flex justify-start items-start gap-6">
                     <Image
-                        src="/illustration.png"
-                        width={400}
-                        height={327}
-                        alt="Illustration"
+                        src="/why.png"
+                        width={1276}
+                        height={1851}
+                        alt="Why"
                     />
                 </div>
                 <div className="w-full flex flex-col justify-start items-start gap-6">

@@ -23,10 +23,10 @@ export default function OurMissionSection() {
                 </div>
                 <div className="w-full flex justify-end items-end">
                     <Image
-                        src="/mockup.png"
-                        width={470}
-                        height={508}
-                        alt="Mockup"
+                        src="/ourmission.png"
+                        width={2008}
+                        height={1859}
+                        alt="Our Mission"
                     />
                 </div>
             </div>

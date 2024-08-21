@@ -79,9 +79,9 @@ function HeroMiddle() {
     return (
         <div className="flex justify-center items-center w-full max-w-screen-xl px-16">
             <Image
-                src="/hero.png"
-                width={1163}
-                height={525}
+                src="/hero2.png"
+                width={2196}
+                height={1290}
                 alt="Hero"
             />
         </div>

@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import FooterSection from "../(sections)/FooterSection";
 import CallToAction from "@/components/CallToAction";
 import { ArrowUpRightIcon } from "@/components/Icons";
 
@@ -28,7 +27,7 @@ export default function Page() {
                                 </svg>
                             }
                             title="Address"
-                            description="1234 Street Name, City Name, United States"
+                            description="Al Masif Street, Al Faisaliyah District, Riyadh 12466, SA"
                         />
                         <ContactCard
                             icon={
@@ -40,8 +39,7 @@ export default function Page() {
                                 </svg>
                             }
                             title="Support"
-                            description="Mobile: 123 456 7890
-Mail: support@stratix.com"
+                            description="Phone number: 0500578040           Email: info@eramsoft.com"
                         />
                         <ContactCard
                             icon={
@@ -50,8 +48,7 @@ Mail: support@stratix.com"
                                 </svg>
                             }
                             title="Hours of Operation"
-                            description="Monday - Friday: 09:00 - 20:00
-Sunday & Saturday: 10:30 - 22:00"
+                            description="24/7"
                         />
                     </div>
                 </div>
