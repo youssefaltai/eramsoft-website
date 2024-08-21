@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function TestimonialsSection() {
     return (
         <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-            <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
+            <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-8 md:px-16">
                 <div className="flex flex-col md:flex-row w-full gap-4 md:gap-0">
                     <h2 className="text-[#0D121C] text-5xl font-semibold w-full">
                         What Our Customer are Saying

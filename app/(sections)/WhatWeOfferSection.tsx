@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhatWeOfferSection() {
     return (
         <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative border-t-2 border-b-2 border-[#CDD5DF]">
-            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
+            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-8 md:px-16">
 
                 <div className="w-full flex flex-col justify-start items-start gap-6">
                     <h2 className="text-3xl md:text-5xl font-semibold">

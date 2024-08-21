@@ -55,7 +55,7 @@ export default function HeroSection() {
 
 function HeroTop() {
     return (
-        <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
+        <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-8 md:px-16">
             <div className="rounded-full py-4 px-6 bg-[#FFF2EB] text-[#F64D00] uppercase font-medium text-center text-nowrap">
                 All in one solutions
             </div>
@@ -77,7 +77,7 @@ function HeroTop() {
 
 function HeroMiddle() {
     return (
-        <div className="flex justify-center items-center w-full max-w-screen-xl px-16">
+        <div className="flex justify-center items-center w-full max-w-screen-xl px-8 md:px-16">
             <Image
                 src="/hero2.png"
                 width={2196}
@@ -90,7 +90,7 @@ function HeroMiddle() {
 
 function HeroBottom() {
     return (
-        <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
+        <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-8 md:px-16">
             <h2 className="text-5xl font-semibold text-center leading-tight">
                 Our clients
             </h2>

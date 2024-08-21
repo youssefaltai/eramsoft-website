@@ -5,7 +5,7 @@ export default function Page() {
     return (
         <>
             <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-                <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-16">
+                <div className="flex flex-col justify-center items-center gap-8 w-full max-w-screen-xl px-8 md:px-16">
                     <h1 className="text-5xl font-semibold text-[#1D0D47]">
                         Our Services
                     </h1>
@@ -15,7 +15,7 @@ export default function Page() {
                 </div>
             </section>
             <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-                <div className="flex flex-col justify-center items-start gap-8 w-full max-w-screen-xl px-16">
+                <div className="flex flex-col justify-center items-start gap-8 w-full max-w-screen-xl px-8 md:px-16">
                     <ServiceCard
                         icon={
                             <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">

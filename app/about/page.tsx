@@ -6,7 +6,7 @@ export default function Page() {
     return (
         <>
             <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-                <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
+                <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-8 md:px-16">
                     <div className="w-full flex flex-col justify-start items-start gap-6">
                         <h2 className="text-5xl font-semibold text-[#1D0D47]">
                             <span className="text-[#2FA455]">Welcome</span> to ERAM <span className="text-[#697586]">Soft</span>
@@ -110,7 +110,7 @@ function AboutSubSection(
     </div>
     return (
         <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-            <div className="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-screen-xl px-16">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-8 w-full max-w-screen-xl px-8 md:px-16">
                 {dir === "ltr" ? text : img}
                 {dir === "ltr" ? img : text}
             </div>

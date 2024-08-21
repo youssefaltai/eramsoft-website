@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function WhySection() {
     return (
         <section className="flex flex-col justify-center items-center py-16 w-full gap-16 bg-white relative">
-            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
+            <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-8 md:px-16">
                 <div className="w-full flex justify-start items-start gap-6">
                     <Image
                         src="/why.png"
