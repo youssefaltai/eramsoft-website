@@ -7,8 +7,8 @@ export default function WhySection() {
                 <div className="w-full flex justify-start items-start gap-6">
                     <Image
                         src="/why.png"
-                        width={1276}
-                        height={1851}
+                        width={1876}
+                        height={1881}
                         alt="Why"
                     />
                 </div>
