@@ -104,7 +104,7 @@ function ServiceCard({ icon, title, description }: ServiceCardProps) {
     return (
         <div className="flex flex-col justify-start items-start gap-5 p-6 bg-[#263145] rounded-3xl z-10">
             {icon}
-            <h3 className="text-white text-2xl font-medium">{title}</h3>
+            <h3 className="text-white text-xl md:text-2xl font-medium">{title}</h3>
             <p className="text-[#9AA4B2] font-normal">{description}</p>
         </div>
     );

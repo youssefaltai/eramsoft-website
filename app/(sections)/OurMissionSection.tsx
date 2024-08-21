@@ -9,7 +9,7 @@ export default function OurMissionSection() {
             <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
                 <div className="w-full flex flex-col justify-start items-start gap-6">
                     <Logo />
-                    <h2 className="text-5xl font-semibold text-[#1D0D47]">
+                    <h2 className="text-3xl md:text-5xl font-semibold text-[#1D0D47]">
                         Our mission is to deliver technological excellence
                     </h2>
                     <p className="text-base text-[#4B5565]">

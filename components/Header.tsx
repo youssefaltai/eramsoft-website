@@ -5,7 +5,7 @@ import NavLink from "./NavLink";
 export default function Header() {
     return (
         <header className="flex justify-center items-center py-6 w-full">
-            <div className="flex justify-between items-center gap-32 w-full max-w-screen-xl px-16">
+            <div className="flex justify-between items-center gap-16 w-full max-w-screen-xl px-16">
                 <Logo />
                 <nav className="hidden lg:flex justify-between items-center w-full max-w-sm">
                     <ul className="flex justify-between items-center w-full gap-4">

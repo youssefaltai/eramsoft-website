@@ -6,7 +6,7 @@ export default function WhatWeOfferSection() {
             <div className="flex flex-col md:flex-row justify-start items-start gap-8 w-full max-w-screen-xl px-16">
 
                 <div className="w-full flex flex-col justify-start items-start gap-6">
-                    <h2 className="text-5xl font-semibold">
+                    <h2 className="text-3xl md:text-5xl font-semibold">
                         What we offer you
                     </h2>
                     <p className="text-[#697586]">
